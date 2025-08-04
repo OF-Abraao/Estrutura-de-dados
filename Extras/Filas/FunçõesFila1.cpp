@@ -1,9 +1,9 @@
 #include <string>
 #include <iostream> 
-#define TAM 10 //Tamanho da fila
+#define TAM 10 //Tamanho da fila/vetor 
 using namespace std; 
 
-//Imprimi vetor
+//Imprimi vetor 
 void imprime_vetor(int vetor[TAM], int tamanho){
     //Auxiliar contador
     int cont;
@@ -41,7 +41,7 @@ void fila_enfileirar(int fila[TAM],int valor,int *atras){
 }
 
 
-//Retorna o tamanho 
+//Retorna o tamanho
 int fila_tamanho(int frente, int atras){
     return (frente-atras)+1;
 }
